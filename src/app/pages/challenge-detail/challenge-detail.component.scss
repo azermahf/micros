@@ -1,0 +1,20 @@
+.proof-tab {
+  transition: all 0.2s ease-in-out;
+  
+  &.active {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.contribution-item {
+  transition: background-color 0.2s ease-in-out;
+  
+  &:hover {
+    background-color: #f9fafb;
+  }
+}
+
+.progress-bar {
+  transition: width 0.3s ease-in-out;
+}

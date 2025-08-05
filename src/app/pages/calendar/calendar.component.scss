@@ -1,0 +1,29 @@
+// Component styles
+
+.calendar-day {
+  transition: background-color 0.2s ease-in-out;
+  
+  &:hover {
+    background-color: #f9fafb;
+  }
+  
+  &.today {
+    background-color: #eff6ff;
+  }
+}
+
+.challenge-item {
+  transition: opacity 0.2s ease-in-out;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.navigation-button {
+  transition: all 0.2s ease-in-out;
+  
+  &:hover {
+    background-color: #f3f4f6;
+  }
+}

@@ -1,0 +1,17 @@
+// Component-specific styles
+.hero-gradient {
+  background: linear-gradient(135deg, #3b82f6 0%, #14b8a6 50%, #10b981 100%);
+}
+
+.challenge-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.category-badge {
+  backdrop-filter: blur(10px);
+}
